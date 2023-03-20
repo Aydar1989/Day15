@@ -1,5 +1,4 @@
-void main()
-{
+void main() {
     double *data;
     int n;
 
@@ -12,13 +11,12 @@ void main()
     printf("\nNORMALIZED DATA:\n\t");
     normalization(data, n);
     output(data, n);
-    
+
     printf("\nSORTED NORMALIZED DATA:\n\t");
     sort(data, n);
     output(data, n);
-    
+
     printf("\nFINAL DECISION:\n\t");
-    //make_decision(data, n);
+    // make_decision(data, n);
     //...
-    
 }
