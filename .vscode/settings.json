@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "data_process.h": "c"
+        "data_process.h": "c",
+        "decision.h": "c"
     }
 }
