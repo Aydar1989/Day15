@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#ifdef MACROS
+#include "../data_libs/data_io_macro.h"
+#else
 #include "../data_libs/data_io.h"
+#endif
+
 #include "../data_libs/data_stat.h"
 #include "../data_module/data_process.h"
 #include "../yet_another_decision_module/decision.h"
