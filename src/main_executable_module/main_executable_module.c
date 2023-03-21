@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "../data_libs/data_io.h"
+#include "../data_libs/data_stat.h"
 #include "../data_module/data_process.h"
 #include "../yet_another_decision_module/decision.h"
-#include "../data_libs/data_stat.h"
 
 double sort(double *data, int n);
-
 
 int main() {
     double *data = NULL;
@@ -35,11 +35,10 @@ int main() {
         printf("YES");
     } else
         printf("NO");
-        
+
     free(data);
     return 0;
 }
-
 
 double sort(double *data, int n) {
     int x;
